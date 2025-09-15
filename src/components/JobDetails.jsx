@@ -27,8 +27,6 @@ function JobDetails() {
     return <Message message="You must be logged in to view job details." />;
   }
 
-  console.log(currentUser);
-
   return (
     <div className={styles.jobDetails}>
       <div className={styles.buttonRow}>
