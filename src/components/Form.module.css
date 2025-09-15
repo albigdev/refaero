@@ -1,0 +1,65 @@
+.formContainer {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin: 2rem auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formLabel {
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 0.2rem;
+}
+
+.formInput,
+.formTextarea,
+.formSelect {
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f8fafc;
+  color: #222;
+  transition: border 0.2s;
+}
+
+.formInput:focus,
+.formTextarea:focus,
+.formSelect:focus {
+  border: 1.5px solid #1e90ff;
+  outline: none;
+  background: #fff;
+}
+
+.formTextarea {
+  min-height: 4rem;
+  resize: vertical;
+}
+
+.formButton {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.formButton:hover {
+  background: #1565c0;
+}

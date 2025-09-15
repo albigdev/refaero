@@ -1,0 +1,83 @@
+.loginPage {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(26, 145, 225, 0.8),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 2.5rem 5rem;
+}
+
+.loginSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+
+.formWrapper {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 18px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem 2.5rem;
+  min-width: 320px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formWrapper h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: #2563eb;
+}
+
+.loginForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.loginForm label {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.input {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #dbeafe;
+  font-size: 1.6rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #222;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: #f0f6ff;
+}
+
+.loginBtn {
+  font-size: 1.2rem;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 0;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.loginBtn:hover {
+  background: #1e40af;
+}

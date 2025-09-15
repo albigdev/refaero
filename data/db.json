@@ -1,0 +1,156 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Tech Solutions",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.4979,
+        "lng": 19.0402
+      },
+      "type": "Full-time",
+      "description": "We are looking for a skilled frontend developer to join our team.",
+      "postedDate": "2024-06-01",
+      "createdBy": "admin"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "Innovatech",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.515,
+        "lng": 19.052
+      },
+      "type": "Part-time",
+      "description": "Seeking an experienced backend developer with knowledge of Node.js and databases.",
+      "postedDate": "2024-05-28",
+      "createdBy": "admin"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "company": "Creative Minds",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.485,
+        "lng": 19.03
+      },
+      "type": "Contract",
+      "description": "Looking for a creative UI/UX designer to help us improve our user interfaces.",
+      "postedDate": "2024-05-30",
+      "createdBy": "admin"
+    },
+    {
+      "id": 4,
+      "title": "DevOps Engineer",
+      "company": "CloudWorks",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.505,
+        "lng": 19.07
+      },
+      "type": "Full-time",
+      "description": "Join our team to automate and optimize cloud infrastructure.",
+      "postedDate": "2024-06-03",
+      "createdBy": "eva"
+    },
+    {
+      "id": 5,
+      "title": "QA Tester",
+      "company": "Tech Solutions",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.495,
+        "lng": 19.02
+      },
+      "type": "Contract",
+      "description": "We need a detail-oriented QA tester for our web applications.",
+      "postedDate": "2024-06-04",
+      "createdBy": "martin"
+    },
+    {
+      "id": 6,
+      "title": "Product Manager",
+      "company": "Innovatech",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.48,
+        "lng": 19.07
+      },
+      "type": "Full-time",
+      "description": "Lead product development and strategy for our new platform.",
+      "postedDate": "2024-06-05",
+      "createdBy": "susan"
+    },
+    {
+      "id": 7,
+      "title": "Data Scientist",
+      "company": "DataVision",
+      "location": "Budapest",
+      "coordinates": {
+        "lat": 47.51,
+        "lng": 19.035
+      },
+      "type": "Full-time",
+      "description": "Analyze large datasets and build predictive models.",
+      "postedDate": "2024-06-06",
+      "createdBy": "admin"
+    },
+    {
+      "title": "Test John",
+      "company": "Test John",
+      "location": "1075 Budapest, Kazinczy utca 49.",
+      "coordinates": {
+        "lat": "47.499401696551544",
+        "lng": "19.060764312744144"
+      },
+      "type": "Contract",
+      "description": "Test",
+      "postedDate": "2025-09-14",
+      "createdBy": "johnsmith@example.com",
+      "id": 9
+    },
+    {
+      "title": "Jane test",
+      "company": "Jane test",
+      "location": "1066 Budapest, Weiner Leó utca 20.",
+      "coordinates": {
+        "lat": "47.50778015426446",
+        "lng": "19.057760238647464"
+      },
+      "type": "Full-time",
+      "description": "Test",
+      "postedDate": "2025-09-14",
+      "createdBy": "janedoe@example.com",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "email": "janedoe@example.com",
+      "password": "password123",
+      "type": "free",
+      "avatar": "https://i.pravatar.cc/150?img=40"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "johnsmith@example.com",
+      "password": "password456",
+      "type": "premium",
+      "avatar": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alicejohnson@example.com",
+      "password": "password789",
+      "type": "free",
+      "avatar": "https://i.pravatar.cc/150?img=25"
+    }
+  ]
+}

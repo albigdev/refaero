@@ -1,0 +1,19 @@
+.companyList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 100%;
+  list-style: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.companyList p {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.companyList::-webkit-scrollbar {
+  width: 0;
+}

@@ -1,0 +1,90 @@
+.pageNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 3.2rem;
+  background: #ffffff23;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 2.5rem;
+}
+
+.logo {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 8px 16px;
+  transition: background 0.4s;
+}
+
+.loginBtn {
+  font-size: 1.4rem;
+  background: #2563eb;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+}
+
+.loginBtn:hover {
+  background: #1e40af;
+}
+
+/* Profile panel */
+
+.profilePanel {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 2rem;
+  padding: 0.4rem 1.2rem 0.4rem 0.7rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #2563eb;
+  background: #fff;
+}
+
+.profileName {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 0.7rem;
+}
+
+.logoffBtn {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.4rem 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logoffBtn:hover {
+  background: #b91c1c;
+}

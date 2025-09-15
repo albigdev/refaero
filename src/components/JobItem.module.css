@@ -1,0 +1,57 @@
+.jobItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1.6rem;
+  background: rgba(255, 255, 255, 0.685);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin-bottom: 0.7rem;
+}
+
+.active {
+  background: rgb(255, 255, 255);
+  border-left: 5px solid #2563eb;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2563eb;
+}
+
+.separator {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.company {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.deleteBtn {
+  margin-left: auto;
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.deleteBtn:hover {
+  background: #b91c1c;
+}
+
+.jobLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.jobLink:hover {
+  text-decoration: none;
+}
