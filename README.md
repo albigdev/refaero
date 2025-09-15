@@ -2,7 +2,12 @@
 
 A modern React + Vite job board application with interactive map, company list, and user authentication.
 
-Public demo is available on https://refaero.netlify.app/
+## Testing 🕹️
+
+- **Public demo**: https://refaero.netlify.app/
+- **Mock users**:
+  - free account: janedoe@example.com / password123
+  - premium account: johnsmith@example.com / password456
 
 ## Features ✨
 

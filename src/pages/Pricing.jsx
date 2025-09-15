@@ -22,7 +22,7 @@ function Pricing() {
             <button className={styles.ctaBtn}>Try for free</button>
           </div>
           <div className={`${styles.panel} ${styles.supporter}`}>
-            <h3>Basic</h3>
+            <h3>Premium</h3>
             <p>All features, no limits!</p>
             <div className={styles.price}>
               $3<span>/month</span>
