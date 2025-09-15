@@ -2,6 +2,8 @@
 
 A modern React + Vite job board application with interactive map, company list, and user authentication.
 
+Public demo is available on https://refaero.netlify.app/
+
 ## Features ✨
 
 - 🔎 **Job Search**: Filterable, searchable job list with detailed job pages.

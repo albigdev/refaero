@@ -46,7 +46,7 @@ function Map() {
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}.png"
+          url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
         {jobs.map((job) => (
           <Marker
